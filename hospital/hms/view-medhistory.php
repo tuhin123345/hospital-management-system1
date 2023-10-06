@@ -129,7 +129,7 @@ $ret=mysqli_query($con,"select * from tblCoursehistory  where StudentID='$vid'")
 <th>Course Instructor</th>
 <th>Course Time</th>
 <th>Signin Date</th>
-<th>Course <Details></Details></th>
+<th>Course Details</th>
 <th>Visit Date</th>
 </tr>
 <?php  

@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Doctor | Manage Patients</title>
+		<title>Doctor | Manage Student</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -60,14 +60,14 @@ if(isset($_POST['submit']))
 <section id="page-title">
 <div class="row">
 <div class="col-sm-8">
-<h1 class="mainTitle">Doctor | Manage Patients</h1>
+<h1 class="mainTitle">Teacher | Manage Student</h1>
 </div>
 <ol class="breadcrumb">
 <li>
 <span>Doctor</span>
 </li>
 <li class="active">
-<span>Manage Patients</span>
+<span>Manage Student</span>
 </li>
 </ol>
 </div>
@@ -124,15 +124,15 @@ $ret=mysqli_query($con,"select * from tblmedicalhistory  where PatientID='$vid'"
  ?>
 <table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
   <tr align="center">
-   <th colspan="8" >Medical History</th> 
+   <th colspan="8" >Course History</th> 
   </tr>
   <tr>
     <th>#</th>
-<th>Blood Pressure</th>
-<th>Weight</th>
-<th>Blood Sugar</th>
-<th>Body Temprature</th>
-<th>Medical Prescription</th>
+    <th>Course Name</th>
+<th>Course Instructor</th>
+<th>Course Time</th>
+<th>Signin Date</th>
+<th>Course Details</th>
 <th>Visit Date</th>
 </tr>
 <?php  
@@ -169,28 +169,28 @@ while ($row=mysqli_fetch_array($ret)) {
                                  <form method="post" name="submit">
 
       <tr>
-    <th>Blood Pressure :</th>
+    <th>Course Name:</th>
     <td>
     <input name="bp" placeholder="Blood Pressure" class="form-control wd-450" required="true"></td>
   </tr>                          
      <tr>
-    <th>Blood Sugar :</th>
+    <th>Course Instructor</th>
     <td>
     <input name="bs" placeholder="Blood Sugar" class="form-control wd-450" required="true"></td>
   </tr> 
   <tr>
-    <th>Weight :</th>
+    <th>Signin Date</th>
     <td>
     <input name="weight" placeholder="Weight" class="form-control wd-450" required="true"></td>
   </tr>
   <tr>
-    <th>Body Temprature :</th>
+    <th>Class Start :</th>
     <td>
     <input name="temp" placeholder="Blood Sugar" class="form-control wd-450" required="true"></td>
   </tr>
                          
      <tr>
-    <th>Prescription :</th>
+    <th>Course Details</th>
     <td>
     <textarea name="pres" placeholder="Medical Prescription" rows="12" cols="14" class="form-control wd-450" required="true"></textarea></td>
   </tr>  

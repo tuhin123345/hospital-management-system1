@@ -29,7 +29,7 @@
 											<i class="ti-list"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Appointment History </span>
+											<span class="title"> Course History </span>
 										</div>
 									</div>
 								</a>
@@ -41,7 +41,7 @@
 											<i class="ti-user"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Patients </span><i class="icon-arrow"></i>
+											<span class="title"> Student </span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
@@ -49,12 +49,12 @@
 									
 									<li>
 										<a href="add-patient.php">
-											<span class="title"> Add Patient</span>
+											<span class="title"> Add Student</span>
 										</a>
 									</li>
 									<li>
 										<a href="manage-patient.php">
-											<span class="title"> Manage Patient </span>
+											<span class="title"> Manage Student </span>
 										</a>
 									</li>
 									
