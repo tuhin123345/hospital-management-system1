@@ -70,11 +70,11 @@ mysqli_query($con,"update appointment set doctorStatus='0' where id ='".$_GET['i
 										<thead>
 											<tr>
 												<th class="center">#</th>
-												<th class="hidden-xs">Stuudent  Name</th>
-												<th>Specialization</th>
-												<th>Consultancy Fee</th>
-												<th>Appointment Date / Time </th>
-												<th>Appointment Creation Date  </th>
+												<th class="hidden-xs">Student  Name</th>
+												<th>Course</th>
+												<th> Fee</th>
+												<th>Class Date / Time </th>
+												<th>Courese Published Date  </th>
 												<th>Current Status</th>
 												<th>Action</th>
 												
@@ -111,7 +111,7 @@ if(($row['userStatus']==1) && ($row['doctorStatus']==0))
 {
 	echo "Cancel by you";
 }
-
+Creation
 
 
 												?></td>
