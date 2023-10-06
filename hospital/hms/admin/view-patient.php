@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
       $query.=mysqli_query($con, "insert   tblmedicalhistory(PatientID,BloodPressure,BloodSugar,Weight,Temperature,MedicalPres)value('$vid','$bp','$bs','$weight','$temp','$pres')");
     if ($query) {
     echo '<script>alert("Medicle history has been added.")</script>';
-    echo "<script>window.location.href ='manage-patient.php'</script>";
+    echo "<script>window.location.href ='manage-patient.php'</script>";s
   }
   else
     {

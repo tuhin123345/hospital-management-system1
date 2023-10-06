@@ -146,7 +146,7 @@
 											<i class="ti-list"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Doctor Session Logs </span>
+											<span class="title"> Teacher Session Logs </span>
 										</div>
 									</div>
 								</a>
@@ -178,7 +178,7 @@
 											<i class="ti-search"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Patient Search </span>
+											<span class="title"> Student Search </span>
 										</div>
 									</div>
 								</a>
