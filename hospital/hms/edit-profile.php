@@ -57,7 +57,7 @@ $msg="Your Profile updated Successfully";
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User | Edit Profile</h1>
+									<h1 class="mainTitle">Student | Edit Profile</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
@@ -193,7 +193,7 @@ while($data=mysqli_fetch_array($sql))
 		<script src="vendor/jquery-cookie/jquery.cookie.js"></script>
 		<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 		<script src="vendor/switchery/switchery.min.js"></script>
-		<!-- end: MAIN JAVASCRIPTS -->
+		<!-- end: MAIN JAVASCRIPTS -->User
 		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 		<script src="vendor/maskedinput/jquery.maskedinput.min.js"></script>
 		<script src="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>

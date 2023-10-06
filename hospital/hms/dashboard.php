@@ -42,7 +42,7 @@ check_login();
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User | Dashboard</h1>
+									<h1 class="mainTitle">Student | Dashboard</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
@@ -76,11 +76,11 @@ check_login();
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle">My Appointments</h2>
+											<h2 class="StepTitle">My Course</h2>
 										
 											<p class="cl-effect-1">
 												<a href="appointment-history.php">
-													View Appointment History
+													View Course History
 												</a>
 											</p>
 										</div>
@@ -90,11 +90,11 @@ check_login();
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle"> Book My Appointment</h2>
+											<h2 class="StepTitle"> Buy Course</h2>
 											
 											<p class="links cl-effect-1">
 												<a href="book-appointment.php">
-													Book Appointment
+												 Buy Course
 												</a>
 											</p>
 										</div>

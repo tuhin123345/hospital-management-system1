@@ -58,7 +58,7 @@ exit();
 		<div class="row">
 			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 				<div class="logo margin-top-30">
-				<a href="../index.html"><h2> HDLC | Patient Login</h2></a>
+				<a href="../index.html"><h2> SEL | Student Login</h2></a>
 				</div>
 
 				<div class="box-login">
@@ -108,7 +108,7 @@ exit();
 			</div>
 		</div>
 		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src=Creation"vendor/bootstrap/js/bootstrap.min.js"></script>
 		<script src="vendor/modernizr/modernizr.js"></script>
 		<script src="vendor/jquery-cookie/jquery.cookie.js"></script>
 		<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>

@@ -15,10 +15,10 @@ if(isset($_POST['submit']))
    $pres=$_POST['pres'];
    
  
-      $query.=mysqli_query($con, "insert   tblmedicalhistory(PatientID,BloodPressure,BloodSugar,Weight,Temperature,MedicalPres)value('$vid','$bp','$bs','$weight','$temp','$pres')");
+      $query.=mysqli_query($con, "insert   tblCoursehistory(StudentID,BloodPressure,BloodSugar,Weight,Temperature,CoursePres)value('$vid','$bp','$bs','$weight','$temp','$pres')");
     if ($query) {
     echo '<script>alert("Medicle history has been added.")</script>';
-    echo "<script>window.location.href ='manage-patient.php'</script>";
+    echo "<script>window.location.href ='manage-Student.php'</script>";
   }
   else
     {
@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Users | Medical History</title>
+		<title>Users | Course History</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -60,14 +60,11 @@ if(isset($_POST['submit']))
 <section id="page-title">
 <div class="row">
 <div class="col-sm-8">
-<h1 class="mainTitle">Users | Medical History</h1>
+<h1 class="mainTitle">Student | Activity History</h1>
 </div>
 <ol class="breadcrumb">
-<li>
-<span>Users</span>
-</li>
-<li class="active">
-<span>Medical History</span>
+<li>Creation
+<span>Activity History</span>
 </li>
 </ol>
 </div>
@@ -75,41 +72,41 @@ if(isset($_POST['submit']))
 <div class="container-fluid container-fullw bg-white">
 <div class="row">
 <div class="col-md-12">
-<h5 class="over-title margin-bottom-15">Users <span class="text-bold">Medical History</span></h5>
+<h5 class="over-title margin-bottom-15">Users <span class="text-bold">Activity History</span></h5>
 <?php
                                $vid=$_GET['viewid'];
-                               $ret=mysqli_query($con,"select * from tblpatient where ID='$vid'");
+                               $ret=mysqli_query($con,"select * from tblStudent where ID='$vid'");
 $cnt=1;
 while ($row=mysqli_fetch_array($ret)) {
                                ?>
 <table border="1" class="table table-bordered">
  <tr align="center">
 <td colspan="4" style="font-size:20px;color:blue">
- Patient Details</td></tr>
+ Student Details</td></tr>
 
     <tr>
-    <th scope>Patient Name</th>
-    <td><?php  echo $row['PatientName'];?></td>
-    <th scope>Patient Email</th>
-    <td><?php  echo $row['PatientEmail'];?></td>
+    <th scope>Student Name</th>
+    <td><?php  echo $row['StudentName'];?></td>
+    <th scope>Student Email</th>
+    <td><?php  echo $row['StudentEmail'];?></td>
   </tr>
   <tr>
-    <th scope>Patient Mobile Number</th>
-    <td><?php  echo $row['PatientContno'];?></td>
-    <th>Patient Address</th>
-    <td><?php  echo $row['PatientAdd'];?></td>
+    <th scope>Student Mobile Number</th>
+    <td><?php  echo $row['StudentContno'];?></td>
+    <th>Student Address</th>
+    <td><?php  echo $row['StudentAdd'];?></td>
   </tr>
     <tr>
-    <th>Patient Gender</th>
-    <td><?php  echo $row['PatientGender'];?></td>
-    <th>Patient Age</th>
-    <td><?php  echo $row['PatientAge'];?></td>
+    <th>Student Gender</th>
+    <td><?php  echo $row['StudentGender'];?></td>
+    <th>Student Age</th>
+    <td><?php  echo $row['StudentAge'];?></td>
   </tr>
   <tr>
     
-    <th>Patient Medical History(if any)</th>
-    <td><?php  echo $row['PatientMedhis'];?></td>
-     <th>Patient Reg Date</th>
+    <th>Student Course History(if any)</th>
+    <td><?php  echo $row['StudentMedhis'];?></td>
+     <th>Student Reg Date</th>
     <td><?php  echo $row['CreationDate'];?></td>
   </tr>
  
@@ -117,22 +114,22 @@ while ($row=mysqli_fetch_array($ret)) {
 </table>
 <?php  
 
-$ret=mysqli_query($con,"select * from tblmedicalhistory  where PatientID='$vid'");
+$ret=mysqli_query($con,"select * from tblCoursehistory  where StudentID='$vid'");
 
 
 
  ?>
 <table id="datatable" class="table table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
   <tr align="center">
-   <th colspan="8" >Medical History</th> 
+   <th colspan="8" >Course History</th> 
   </tr>
   <tr>
     <th>#</th>
-<th>Blood Pressure</th>
-<th>Weight</th>
-<th>Blood Sugar</th>
-<th>Body Temprature</th>
-<th>Medical Prescription</th>
+<th>Course Name</th>
+<th>Course Instructor</th>
+<th>Course Time</th>
+<th>Signin Date</th>
+<th>Course <Details></Details></th>
 <th>Visit Date</th>
 </tr>
 <?php  
