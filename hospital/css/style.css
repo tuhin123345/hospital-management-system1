@@ -36,6 +36,7 @@ body{
 .logo{
 	float:left;
 	margin-top: 14px;
+	border-radius: 50%;
 }
 .top-nav{
 	float:right;
@@ -120,6 +121,12 @@ body{
 .images_1_of_3  img {
 	max-width:100%;
 	display:block;
+}
+
+#slide-image-css {
+	width: 100px; /* Set the image width to 100% of the container width */
+    height: 200px; /* Set the image height to 100% of the container height */
+    object-fit: cover; /* Scale the image to cover the container while maintaining aspect ratio */
 }
 .list_1_of_2  h3{
 	color:#3391E7;
@@ -937,3 +944,5 @@ body{
 	  flex: 2 0px;
 	}
   }
+
+  
