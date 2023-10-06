@@ -32,7 +32,7 @@ if(isset($_POST['submit']))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Doctor | Manage Patients</title>
+		<title>Teacher | Manage Student</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -60,14 +60,14 @@ if(isset($_POST['submit']))
 <section id="page-title">
 <div class="row">
 <div class="col-sm-8">
-<h1 class="mainTitle">Doctor | Manage Patients</h1>
+<h1 class="mainTitle">Teacher | Manage Student</h1>
 </div>
 <ol class="breadcrumb">
 <li>
-<span>Doctor</span>
+<span>Teacher</span>
 </li>
 <li class="active">
-<span>Manage Patients</span>
+<span>Manage Student</span>
 </li>
 </ol>
 </div>
@@ -85,31 +85,31 @@ while ($row=mysqli_fetch_array($ret)) {
 <table border="1" class="table table-bordered">
  <tr align="center">
 <td colspan="4" style="font-size:20px;color:blue">
- Patient Details</td></tr>
+  Details</td></tr>
 
     <tr>
-    <th scope>Patient Name</th>
+    <th scope> Name</th>
     <td><?php  echo $row['PatientName'];?></td>
-    <th scope>Patient Email</th>
+    <th scope> Email</th>
     <td><?php  echo $row['PatientEmail'];?></td>
   </tr>
   <tr>
-    <th scope>Patient Mobile Number</th>
+    <th scope> Mobile Number</th>
     <td><?php  echo $row['PatientContno'];?></td>
-    <th>Patient Address</th>
+    <th> Address</th>
     <td><?php  echo $row['PatientAdd'];?></td>
   </tr>
     <tr>
-    <th>Patient Gender</th>
+    <th> Gender</th>
     <td><?php  echo $row['PatientGender'];?></td>
-    <th>Patient Age</th>
+    <th> Age</th>
     <td><?php  echo $row['PatientAge'];?></td>
   </tr>
   <tr>
     
-    <th>Patient Medical History(if any)</th>
+    <th> Course History(if any)</th>
     <td><?php  echo $row['PatientMedhis'];?></td>
-     <th>Patient Reg Date</th>
+     <th>Reg Date</th>
     <td><?php  echo $row['CreationDate'];?></td>
   </tr>
  
@@ -128,11 +128,11 @@ $ret=mysqli_query($con,"select * from tblmedicalhistory  where PatientID='$vid'"
   </tr>
   <tr>
     <th>#</th>
-<th>Blood Pressure</th>
-<th>Weight</th>
-<th>Blood Sugar</th>
-<th>Body Temprature</th>
-<th>Medical Prescription</th>
+	<th>Course Name</th>
+<th>Course Instructor</th>
+<th>Course Time</th>
+<th>Signin Date</th>
+<th>Course Details</th>
 <th>Visit Date</th>
 </tr>
 <?php  
@@ -187,7 +187,7 @@ while ($row=mysqli_fetch_array($ret)) {
 		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 		<!-- start: CLIP-TWO JAVASCRIPTS -->
 		<script src="assets/js/main.js"></script>
-		<!-- start: JavaScript Event Handlers for this page -->
+		<!-- start: JavaScript Event Handlers forplaceh this page -->
 		<script src="assets/js/form-elements.js"></script>
 		<script>
 			jQuery(document).ready(function() {

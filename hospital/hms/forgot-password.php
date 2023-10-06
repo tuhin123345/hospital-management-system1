@@ -27,7 +27,7 @@ echo "<script>window.location.href ='forgot-password.php'</script>";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Pateint  Password Recovery</title>
+		<title>Student  Password Recovery</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -44,14 +44,14 @@ echo "<script>window.location.href ='forgot-password.php'</script>";
 		<div class="row">
 			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 				<div class="logo margin-top-30">
-				<a href="../index.html"><h2> HMS | Patient Password Recovery</h2></a>
+				<a href="../index.html"><h2> SEL | Student Password Recovery</h2></a>
 				</div>
 
 				<div class="box-login">
 					<form class="form-login" method="post">
 						<fieldset>
 							<legend>
-								Patient Password Recovery
+							Student Password Recovery
 							</legend>
 							<p>
 								Please enter your Email and password to recover your password.<br />
@@ -87,7 +87,7 @@ echo "<script>window.location.href ='forgot-password.php'</script>";
 					</form>
 
 					<div class="copyright">
-						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> HMS</span>. <span>All rights reserved</span>
+						&copy; <span class="current-year"></span><span class="text-bold text-uppercase"> SEL</span>. <span>All rights reserved</span>
 					</div>
 			
 				</div>

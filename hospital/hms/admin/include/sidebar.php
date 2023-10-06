@@ -27,24 +27,24 @@
 											<i class="ti-user"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Doctors </span><i class="icon-arrow"></i>
+											<span class="title"> Teacher </span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
 								<ul class="sub-menu">
 									<li>
 										<a href="doctor-specilization.php">
-											<span class="title"> Doctor Specialization </span>
+											<span class="title"> Teacher Specialization </span>
 										</a>
 									</li>
 									<li>
 										<a href="add-doctor.php">
-											<span class="title"> Add Doctor</span>
+											<span class="title"> Add Teacher</span>
 										</a>
 									</li>
 									<li>
 										<a href="Manage-doctors.php">
-											<span class="title"> Manage Doctors </span>
+											<span class="title"> Manage Teacher </span>
 										</a>
 									</li>
 									
@@ -79,7 +79,7 @@
 											<i class="ti-user"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Patients </span><i class="icon-arrow"></i>
+											<span class="title"> Student </span><i class="icon-arrow"></i>
 										</div>
 									</div>
 								</a>
@@ -87,7 +87,7 @@
 									
 									<li>
 										<a href="manage-patient.php">
-											<span class="title"> Manage Patients </span>
+											<span class="title"> Manage Student </span>
 										</a>
 									</li>
 									
@@ -101,7 +101,7 @@
 											<i class="ti-file"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Appointment History </span>
+											<span class="title"> Course History </span>
 										</div>
 									</div>
 								</a>

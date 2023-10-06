@@ -15,7 +15,7 @@ if(isset($_GET['del']))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Admin | Manage Doctors</title>
+		<title>Admin | Manage Teacher</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -46,14 +46,14 @@ if(isset($_GET['del']))
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Admin | Manage Doctors</h1>
+									<h1 class="mainTitle">Admin | Manage Teacher</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
 										<span>Admin</span>
 									</li>
 									<li class="active">
-										<span>Manage Doctors</span>
+										<span>Manage Teacher</span>
 									</li>
 								</ol>
 							</div>
@@ -72,7 +72,7 @@ if(isset($_GET['del']))
 										<thead>
 											<tr>
 												<th class="center">#</th>
-												<th>Specialization</th>
+												<th>Topic</th>
 												<th class="hidden-xs">Doctor Name</th>
 												<th>Creation Date </th>
 												<th>Action</th>

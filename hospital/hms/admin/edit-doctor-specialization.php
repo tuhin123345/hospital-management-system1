@@ -16,7 +16,7 @@ $_SESSION['msg']="Doctor Specialization updated successfully !!";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Admin | Edit Doctor Specialization</title>
+		<title>Admin | Edit Teacher Specialization</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -47,14 +47,14 @@ $_SESSION['msg']="Doctor Specialization updated successfully !!";
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Admin | Edit Doctor Specialization</h1>
+									<h1 class="mainTitle">Admin | Edit Teacher Specialization</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
 										<span>Admin</span>
 									</li>
 									<li class="active">
-										<span>Edit Doctor Specialization</span>
+										<span>Edit Teacher Specialization</span>
 									</li>
 								</ol>
 							</div>
@@ -69,7 +69,7 @@ $_SESSION['msg']="Doctor Specialization updated successfully !!";
 										<div class="col-lg-6 col-md-12">
 											<div class="panel panel-white">
 												<div class="panel-heading">
-													<h5 class="panel-title">Edit Doctor Specialization</h5>
+													<h5 class="panel-title">Edit Teacher Specialization</h5>
 												</div>
 												<div class="panel-body">
 								<p style="color:red;"><?php echo htmlentities($_SESSION['msg']);?>
@@ -77,7 +77,7 @@ $_SESSION['msg']="Doctor Specialization updated successfully !!";
 													<form role="form" name="dcotorspcl" method="post" >
 														<div class="form-group">
 															<label for="exampleInputEmail1">
-																Edit Doctor Specialization
+																Edit Teacher Specialization
 															</label>
 
 	<?php 

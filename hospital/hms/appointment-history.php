@@ -70,11 +70,11 @@ if(isset($_GET['cancel']))
 										<thead>
 											<tr>
 												<th class="center">#</th>
-												<th class="hidden-xs">Doctor Name</th>
-												<th>Specialization</th>
-												<th>Consultancy Fee</th>
-												<th>Appointment Date / Time </th>
-												<th>Appointment Creation Date  </th>
+												<th class="hidden-xs">Teacher Name</th>
+												<th>Topic</th>
+												<th>Course Fee</th>
+												<th>Course Date / Time </th>
+												<th>Course Creation Date  </th>
 												<th>Current Status</th>
 												<th>Action</th>
 												
@@ -109,7 +109,7 @@ if(($row['userStatus']==0) && ($row['doctorStatus']==1))
 
 if(($row['userStatus']==1) && ($row['doctorStatus']==0))  
 {
-	echo "Cancel by Doctor";
+	echo "Cancel by Teacher";
 }
 
 

@@ -48,7 +48,7 @@ mysqli_query($con,"update appointment set doctorStatus='0' where id ='".$_GET['i
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>Doctor </span>
+										<span>Teacher </span>
 									</li>
 									<li class="active">
 										<span>Course History</span>

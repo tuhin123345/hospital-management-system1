@@ -9,7 +9,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Admin | View Patients</title>
+		<title>Admin | View Student</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -37,7 +37,7 @@ check_login();
 <section id="page-title">
 <div class="row">
 <div class="col-sm-8">
-<h1 class="mainTitle">Admin | View Patients</h1>
+<h1 class="mainTitle">Admin | View Student</h1>
 </div>
 <ol class="breadcrumb">
 <li>
@@ -76,9 +76,9 @@ $sdata=$_POST['searchdata'];
 <thead>
 <tr>
 <th class="center">#</th>
-<th>Patient Name</th>
-<th>Patient Contact Number</th>
-<th>Patient Gender </th>
+<th> Name</th>
+<th> Contact Number</th>
+<th> Gender </th>
 <th>Creation Date </th>
 <th>Updation Date </th>
 <th>Action</th>

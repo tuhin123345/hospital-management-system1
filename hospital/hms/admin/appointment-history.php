@@ -8,7 +8,7 @@ check_login();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Patients | Appointment History</title>
+		<title>Student | Course History</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -39,14 +39,14 @@ check_login();
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">Patients  | Appointment History</h1>
+									<h1 class="mainTitle">Student  | Course History</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
-										<span>Patients </span>
+										<span>Student </span>
 									</li>
 									<li class="active">
-										<span>Appointment History</span>
+										<span>Course History</span>
 									</li>
 								</ol>
 							</div>
@@ -65,12 +65,12 @@ check_login();
 										<thead>
 											<tr>
 												<th class="center">#</th>
-												<th class="hidden-xs">Doctor Name</th>
-												<th>Patient Name</th>
+												<th class="hidden-xs">Teacher Name</th>
+												<th>Student Name</th>
 												<th>Specialization</th>
-												<th>Consultancy Fee</th>
-												<th>Appointment Date / Time </th>
-												<th>Appointment Creation Date  </th>
+												<th>Course Fee</th>
+												<th> Date / Time </th>
+												<th> Creation Date  </th>
 												<th>Current Status</th>
 												<th>Action</th>
 												

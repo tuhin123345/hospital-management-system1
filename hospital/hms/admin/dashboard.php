@@ -62,7 +62,7 @@ check_login();
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle">Manage Users</h2>
+											<h2 class="StepTitle">Manage Patient</h2>
 											
 											<p class="links cl-effect-1">
 												<a href="manage-users.php">
@@ -80,7 +80,7 @@ $num_rows = mysqli_num_rows($result);
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle">Manage Doctors</h2>
+											<h2 class="StepTitle">Manage Teacher</h2>
 										
 											<p class="cl-effect-1">
 												<a href="manage-doctors.php">
@@ -88,7 +88,7 @@ $num_rows = mysqli_num_rows($result);
 $num_rows1 = mysqli_num_rows($result1);
 {
 ?>
-											Total Doctors :<?php echo htmlentities($num_rows1);  } ?>		
+											Total Teachers :<?php echo htmlentities($num_rows1);  } ?>		
 												</a>
 												
 											</p>
@@ -99,7 +99,7 @@ $num_rows1 = mysqli_num_rows($result1);
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle"> Appointments</h2>
+											<h2 class="StepTitle"> Course</h2>
 											
 											<p class="links cl-effect-1">
 												<a href="book-appointment.php">
@@ -108,7 +108,7 @@ $num_rows1 = mysqli_num_rows($result1);
 $num_rows2 = mysqli_num_rows($sql);
 {
 ?>
-											Total Appointments :<?php echo htmlentities($num_rows2);  } ?>	
+											Total Courses :<?php echo htmlentities($num_rows2);  } ?>	
 												</a>
 												</a>
 											</p>
@@ -120,7 +120,7 @@ $num_rows2 = mysqli_num_rows($sql);
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
 											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
-											<h2 class="StepTitle">Manage Patients</h2>
+											<h2 class="StepTitle">Manage Student</h2>
 											
 											<p class="links cl-effect-1">
 												<a href="manage-patient.php">
