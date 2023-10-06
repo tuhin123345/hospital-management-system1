@@ -1,10 +1,10 @@
-
+<?php
 session_start();
 //error_reporting(0);
 include('include/config.php');
 include('include/checklogin.php');
 check_login();
-
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -163,4 +163,4 @@ $cnt=$cnt+1;
 		<!-- end: JavaScript Event Handlers for this page -->
 		<!-- end: CLIP-TWO JAVASCRIPTS -->
 	</body>
-</html> -->
+</html>

@@ -27,7 +27,7 @@ header('location:add-patient.php');
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Doctor | Add Patient</title>
+		<title>Teacher | Add Student</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -72,14 +72,14 @@ error:function (){}
 <section id="page-title">
 <div class="row">
 <div class="col-sm-8">
-<h1 class="mainTitle">Patient | Add Patient</h1>
+<h1 class="mainTitle">Student | Add Student</h1>
 </div>
 <ol class="breadcrumb">
 <li>
-<span>Patient</span>
+<span>Student</span>
 </li>
 <li class="active">
-<span>Add Patient</span>
+<span>Add Student</span>
 </li>
 </ol>
 </div>
@@ -91,28 +91,28 @@ error:function (){}
 <div class="col-lg-8 col-md-12">
 <div class="panel panel-white">
 <div class="panel-heading">
-<h5 class="panel-title">Add Patient</h5>
+<h5 class="panel-title">Add Student</h5>
 </div>
 <div class="panel-body">
 <form role="form" name="" method="post">
 
 <div class="form-group">
 <label for="doctorname">
-Patient Name
+Student  Name
 </label>
-<input type="text" name="patname" class="form-control"  placeholder="Enter Patient Name" required="true">
+<input type="text" name="patname" class="form-control"  placeholder="Enter Student Name" required="true">
 </div>
 <div class="form-group">
 <label for="fess">
- Patient Contact no
+ Student Contact no
 </label>
-<input type="text" name="patcontact" class="form-control"  placeholder="Enter Patient Contact no" required="true" maxlength="10" pattern="[0-9]+">
+<input type="text" name="patcontact" class="form-control"  placeholder="Enter Student Contact no" required="true" maxlength="10" pattern="[0-9]+">
 </div>
 <div class="form-group">
 <label for="fess">
-Patient Email
+Student Email
 </label>
-<input type="email" id="patemail" name="patemail" class="form-control"  placeholder="Enter Patient Email id" required="true" onBlur="userAvailability()">
+<input type="email" id="patemail" name="patemail" class="form-control"  placeholder="Enter Student Email id" required="true" onBlur="userAvailability()">
 <span id="user-availability-status1" style="font-size:12px;"></span>
 </div>
 <div class="form-group">
@@ -132,13 +132,13 @@ Male
 </div>
 <div class="form-group">
 <label for="address">
-Patient Address
+Student Address
 </label>
 <textarea name="pataddress" class="form-control"  placeholder="Enter Patient Address" required="true"></textarea>
 </div>
 <div class="form-group">
 <label for="fess">
- Patient Age
+ Student Age
 </label>
 <input type="text" name="patage" class="form-control"  placeholder="Enter Patient Age" required="true">
 </div>

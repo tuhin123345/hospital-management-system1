@@ -70,7 +70,7 @@ mysqli_query($con,"update appointment set doctorStatus='0' where id ='".$_GET['i
 										<thead>
 											<tr>
 												<th class="center">#</th>
-												<th class="hidden-xs">Patient  Name</th>
+												<th class="hidden-xs">Stuudent  Name</th>
 												<th>Specialization</th>
 												<th>Consultancy Fee</th>
 												<th>Appointment Date / Time </th>
