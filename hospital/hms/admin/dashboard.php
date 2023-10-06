@@ -128,7 +128,7 @@ $num_rows2 = mysqli_num_rows($sql);
 $num_rows = mysqli_num_rows($result);
 {
 ?>
-Total Patients :<?php echo htmlentities($num_rows);  
+Total Student :<?php echo htmlentities($num_rows);  
 } ?>		
 </a>
 											</p>

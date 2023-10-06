@@ -52,7 +52,7 @@ check_login();
 <div class="container-fluid container-fullw bg-white">
 <div class="row">
 <div class="col-md-12">
-<h5 class="over-title margin-bottom-15">Manage <span class="text-bold">Patients</span></h5>
+<h5 class="over-title margin-bottom-15">Manage <span class="text-bold">Student</span></h5>
 	
 <table class="table table-hover" id="sample-table-1">
 <thead>

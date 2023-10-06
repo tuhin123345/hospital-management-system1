@@ -75,7 +75,7 @@ if(isset($_POST['submit']))
 <div class="container-fluid container-fullw bg-white">
 <div class="row">
 <div class="col-md-12">
-<h5 class="over-title margin-bottom-15">Manage <span class="text-bold">Patients</span></h5>
+<h5 class="over-title margin-bottom-15">Manage <span class="text-bold">Student</span></h5>
 <?php
                                $vid=$_GET['viewid'];
                                $ret=mysqli_query($con,"select * from tblpatient where ID='$vid'");

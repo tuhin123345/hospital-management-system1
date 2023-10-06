@@ -44,7 +44,7 @@ check_login();
 <span>Admin</span>
 </li>
 <li class="active">
-<span>View Patients</span>
+<span>View Student</span>
 </li>
 </ol>
 </div>
