@@ -122,7 +122,7 @@ while($row=mysqli_fetch_array($sql))
 				</div>
 			</div>
 			<!-- start: FOOTER -->
-	<?php include('include/footer.php');?>
+	<!-- <?php include('include/footer.php');?> -->
 			<!-- end: FOOTER -->
 		
 			<!-- start: SETTINGS -->

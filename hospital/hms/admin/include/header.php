@@ -22,7 +22,7 @@
 						<ul class="nav navbar-right">
 							<!-- start: MESSAGES DROPDOWN -->
 								<li  style="padding-top:2% ">
-								<h2>Smart Education Ltd.
+								<h2>SmartEd Platform.
 								</h2>
 							</li>
 						

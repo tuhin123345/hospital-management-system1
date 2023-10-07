@@ -177,7 +177,7 @@ $num_rows22 = mysqli_num_rows($sql);
 				</div>
 			</div>
 			<!-- start: FOOTER -->
-	<?php include('include/footer.php');?>
+	<!-- <?php include('include/footer.php');?> -->
 			<!-- end: FOOTER -->
 		
 			<!-- start: SETTINGS -->

@@ -165,7 +165,7 @@ Update
 </div>
 </div>
 			<!-- start: FOOTER -->
-<?php include('include/footer.php');?>
+<!-- <?php include('include/footer.php');?> -->
 			<!-- end: FOOTER -->
 		
 			<!-- start: SETTINGS -->

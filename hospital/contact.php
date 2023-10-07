@@ -29,7 +29,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 				<div class="wrap">
 				<!--start-logo-->
 				<div class="logo">
-		<a href="index.html" style="font-size: 30px;">Smart Education Ltd.</a> 
+		<a href="index.html" style="font-size: 30px;">SmartEd Platform</a> 
 				</div>
 				<!--end-logo-->
 				<!--start-top-nav-->
