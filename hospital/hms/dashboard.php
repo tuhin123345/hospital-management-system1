@@ -10,6 +10,8 @@ check_login();
 <html lang="en">
 	<head>
 		<title>User  | Dashboard</title>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -59,41 +61,40 @@ check_login();
 							<div class="container-fluid container-fullw bg-white">
 							<div class="row">
   <!-- First Section -->
-  <div class="col-sm-6">
-    <div class="panel panel-white no-radius text-center">
-      <div class="panel-body">
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-square fa-stack-2x text-primary"></i>
-          <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
-        </span>
-        <h2 class="StepTitle">My Profile</h2>
-        <!-- Add your chart for the "My Profile" section here -->
-        <div id="profile-chart"></div>
-        <p class="links cl-effect-1">
-          <a href="edit-profile.php">Update Profile</a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Second Section -->
-  <div class="col-sm-6">
-    <div class="panel panel-white no-radius text-center">
-      <div class="panel-body">
-        <span class="fa-stack fa-2x">
-          <i class="fa fa-square fa-stack-2x text-primary"></i>
-          <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i>
-        </span>
-        <h2 class="StepTitle">My Course</h2>
-        <!-- Add your chart for the "My Course" section here -->
-        <div id="course-chart"></div>
-        <p class="cl-effect-1">
-          <a href="appointment-history.php">View Course History</a>
-        </p>
-      </div>
+<!-- First Section -->
+<div class="col-sm-6">
+  <div class="panel panel-white no-radius text-center">
+    <div class="panel-body">
+      <span class="fa-stack fa-2x">
+        <i class="fa fa-square fa-stack-2x text-primary"></i>
+        <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
+      </span>
+      <h2 class="StepTitle">My Profile</h2>
+      <canvas id="profile-chart" width="400" height="400"></canvas> <!-- Canvas for pie chart -->
+      <p class="links cl-effect-1">
+        <a href="edit-profile.php">Update Profile</a>
+      </p>
     </div>
   </div>
 </div>
+
+<!-- Second Section -->
+<div class="col-sm-6">
+  <div class="panel panel-white no-radius text-center">
+    <div class="panel-body">
+      <span class="fa-stack fa-2x">
+        <i class="fa fa-square fa-stack-2x text-primary"></i>
+        <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i>
+      </span>
+      <h2 class="StepTitle">My Course</h2>
+      <canvas id="course-chart" width="400" height="400"></canvas> <!-- Canvas for bar chart -->
+      <p class="cl-effect-1">
+        <a href="appointment-history.php">View Course History</a>
+      </p>
+    </div>
+  </div>
+</div>
+
 
 						</div>
 						<div class="container-fluid container-fullw bg-white">
@@ -189,6 +190,39 @@ check_login();
 				Main.init();
 				FormElements.init();
 			});
+			<script>
+  // Data for the pie chart
+  var profileChartData = {
+    labels: ['Label 1', 'Label 2', 'Label 3'],
+    datasets: [{
+      data: [30, 40, 30], // Static data values
+      backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+    }],
+  };
+
+  // Data for the bar chart
+  var courseChartData = {
+    labels: ['Label A', 'Label B', 'Label C'],
+    datasets: [{
+      label: 'Data',
+      data: [50, 70, 40], // Static data values
+      backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+    }],
+  };
+
+  // Create the pie chart
+  var profileChart = new Chart(document.getElementById('profile-chart'), {
+    type: 'pie',
+    data: profileChartData,
+  });
+
+  // Create the bar chart
+  var courseChart = new Chart(document.getElementById('course-chart'), {
+    type: 'bar',
+    data: courseChartData,
+  });
+</script>
+
 		</script>
 		<!-- end: JavaScript Event Handlers for this page -->
 		<!-- end: CLIP-TWO JAVASCRIPTS -->
