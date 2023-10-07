@@ -190,9 +190,8 @@ check_login();
 				Main.init();
 				FormElements.init();
 			});
-			<script>
-  // Data for the pie chart
-  var profileChartData = {
+
+			var profileChartData = {
     labels: ['Label 1', 'Label 2', 'Label 3'],
     datasets: [{
       data: [30, 40, 30], // Static data values
@@ -221,8 +220,7 @@ check_login();
     type: 'bar',
     data: courseChartData,
   });
-</script>
-
+ 
 		</script>
 		<!-- end: JavaScript Event Handlers for this page -->
 		<!-- end: CLIP-TWO JAVASCRIPTS -->
