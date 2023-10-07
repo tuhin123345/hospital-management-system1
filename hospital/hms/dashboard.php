@@ -69,10 +69,12 @@ check_login();
         <i class="fa fa-square fa-stack-2x text-primary"></i>
         <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
       </span>
-      <h2 class="StepTitle">My Profile</h2>
+      <h2 class="StepTitle">Student Individual Perform 
+	
+	  </h2>
       <canvas id="profile-chart" width="400" height="400"></canvas> <!-- Canvas for pie chart -->
       <p class="links cl-effect-1">
-        <a href="edit-profile.php">Update Profile</a>
+        <!-- <a href="edit-profile.php">Update Profile</a> -->
       </p>
     </div>
   </div>
@@ -86,13 +88,11 @@ check_login();
         <i class="fa fa-square fa-stack-2x text-primary"></i>
         <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i>
       </span>
-      <h2 class="StepTitle">My Course</h2>
+      <h2 class="StepTitle">Student Weakly Activity</h2>
       <canvas id="course-chart" width="400" height="400"></canvas> <!-- Canvas for bar chart -->
       <p class="cl-effect-1">
-        <a href="appointment-history.php">View Course History</a>
-      </p>
-    </div>
-  </div>
+       <!-- <a href="appointment-history.php">View Course History</a> -->
+      </p>	
 </div>
 
 
@@ -130,20 +130,15 @@ check_login();
 								<div class="col-sm-4">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
-											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
+											<!-- <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
 											<h2 class="StepTitle"> Buy Course</h2>
 											
 											<p class="links cl-effect-1">
 												<a href="book-appointment.php">
 												 Buy Course
 												</a>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-			
+											</p> -->
+										</div>	
 					
 					
 						
@@ -161,14 +156,7 @@ check_login();
 			<!-- start: SETTINGS -->
 	<?php include('include/setting.php');?>
 			<>
-			<!-- end: SETTINGS -->
-		</div>
-		<!-- start: MAIN JAVASCRIPTS -->
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="vendor/modernizr/modernizr.js"></script>
-		<script src="vendor/jquery-cookie/jquery.cookie.js"></script>
-		<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+			<!-- end: SETTINGS -->	rfect-scrollbar.min.js"></script>
 		<script src="vendor/switchery/switchery.min.js"></script>
 		<!-- end: MAIN JAVASCRIPTS -->
 		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
@@ -179,7 +167,7 @@ check_login();
 		<script src="vendor/selectFx/selectFx.js"></script>
 		<script src="vendor/select2/select2.min.js"></script>
 		<script src="vendor/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
-		<script src="vendor/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
+		<script src="vendor/bootstrap-timepicker	/bootstrap-timepicker.min.js"></script>
 		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
 		<!-- start: CLIP-TWO JAVASCRIPTS -->
 		<script src="assets/js/main.js"></script>
@@ -192,8 +180,8 @@ check_login();
 			});
 
 			var profileChartData = {
-    labels: ['Label 1', 'Label 2', 'Label 3'],
-    datasets: [{
+    labels: ['Programing', 'Data Structure', 'OOP'],
+    datasets: [{	
       data: [30, 40, 30], // Static data values
       backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
     }],
@@ -201,11 +189,11 @@ check_login();
 
   // Data for the bar chart
   var courseChartData = {
-    labels: ['Label A', 'Label B', 'Label C'],
+    labels: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];,
     datasets: [{
       label: 'Data',
-      data: [50, 70, 40], // Static data values
-      backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
+      data: [50, 70, 40,20,10,80,40], // Static data values
+      backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF8C00', '#32CD32'],
     }],
   };
 

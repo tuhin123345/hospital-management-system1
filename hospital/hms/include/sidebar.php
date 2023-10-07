@@ -27,7 +27,7 @@
 											<i class="ti-pencil-alt"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Buy Course </span>
+											<!-- <span class="title"> Buy Course </span> -->
 										</div>
 									</div>
 								</a>
@@ -40,7 +40,7 @@
 											<i class="ti-list"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Course List </span>
+											<span class="title"> All Course Add </span>
 										</div>
 									</div>
 								</a>
