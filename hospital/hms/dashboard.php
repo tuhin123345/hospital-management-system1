@@ -82,8 +82,6 @@ check_login();
 
 <!-- Second Section -->
 <div class="col-sm-6">
-  <div class="panel panel-white no-radius text-center">
-    <div class="panel-body">
       <span class="fa-stack fa-2x">
         <i class="fa fa-square fa-stack-2x text-primary"></i>
         <i class="fa fa-paperclip fa-stack-1x fa-inverse"></i>
@@ -181,11 +179,7 @@ check_login();
 
 			var profileChartData = {
     labels: ['Programing', 'Data Structure', 'OOP'],
-    datasets: [{	
-      data: [30, 40, 30], // Static data values
-      backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-    }],
-  };
+    datasets: [{	'#FF6384', '#36A2EB', '#FFCE56'
 
   // Data for the bar chart
   var courseChartData = {
